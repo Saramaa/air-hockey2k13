@@ -1,0 +1,26 @@
+Air-hockey 2k13
+=====
+
+Air-hockey 2k13 är ett spel skapat av Anderz Johansson.
+
+Installation
+============
+1. Klona detta repo till din dator.
+2. Ladda upp ala filer till en server.
+3. Öppna index.php filen i en webläsare och kontrollera att det fungerar som det skall.
+Länk till spelet i sin fungerande form: http://www.student.bth.se/~anjo13/javaScript/me/test/air-hockey/
+
+Konfiguration
+============
+För att själv kunna konfigurera detta spel så krävs det att du åtminstone grundläggande kunskaper i javaScript, HTML och CSS.
+
+Om du vill ändra stilen för spelets meny eller lägga till eller ta bort något liknande gör du det i filen air-hockey/style.less.
+
+För att ändra på stilen i själva hemsidan gör du det i filen air-hockey/temp/base.less.
+
+För att ändra i spelkoden och dess funktioner går du till filen air-hockey/hockey.js.
+
+I mapparna air-hockey/img och air-hockey/sound kan du bygga ut ljud- och bildbibleoteket.
+
+Du kan såklart även lägga till och ta bort filer som du vill men se upp så att du inte gör för stora ändringar så att det 
+inte går att få igång spelet!
