@@ -1,0 +1,208 @@
+/** 
+ * Import base style 
+ */ 
+@import "../temp/base.less"; 
+  
+/** 
+ * Here comes specific style for a certain test program. 
+ */ 
+/** 
+ * Import base style 
+ */ 
+@import "base.less"; 
+
+  
+/** 
+ * Header 
+ ******************************************************************************/ 
+
+
+img.top {width:500px;height:100px;position:relative;} 
+
+
+.textabove 
+{ 
+    position:absolute;     
+    color:#000; 
+    font-size:120px; 
+    font-weight:bold; 
+    margin-left:10px; 
+    top:20px; 
+    font-family: 'Dorsa', sans-serif; 
+} 
+
+header { 
+  display:block; 
+  height: 150px; 
+} 
+
+
+/** 
+ * Main navigation 
+ ******************************************************************************/ 
+  
+ul.nav{ 
+  list-style:none; 
+  font-weight:bold; 
+  margin-bottom:10px; 
+  /* Clear floats */ 
+  float:left; 
+  width:100%; 
+  position:relative; 
+  z-index:5; 
+  padding-left: 0px;   
+
+} 
+ul.nav li{ 
+  float:left; 
+  margin-right:10px; 
+  position:relative; 
+} 
+ul.nav a{ 
+  display:block; 
+  padding:10px; 
+  color:#fff; 
+  background:#000; 
+  text-decoration:none; 
+  border-radius:10px; 
+  box-shadow: 5px 5px 5px #888888; 
+} 
+ul.nav a:hover{ 
+  background:#9B001C; 
+  text-decoration:none; 
+} 
+
+ul.nav a:active { 
+  background:#9B001C; 
+  text-decoration:none; 
+} 
+
+
+/** 
+ * Content 
+ ******************************************************************************/ 
+  
+p, code, pre { 
+  width: 500px; 
+  margin-left: 10px; 
+  margin-right: 10px; 
+} 
+  
+.ingress{ 
+  text-transform: uppercase; 
+  font-weight: bold; 
+  font-size:12px; 
+  color:#505050; 
+  width: 450px; 
+} 
+
+h1, h2, h3, h4, h5, .download, ol, nav, div, pre, code, intress, p, ul, .download, form, input  { 
+  margin-left:10px; 
+} 
+
+h1, h2, h3 { 
+  padding-bottom:5px; 
+  padding-top:5px; 
+} 
+
+li {  
+  padding-top:5px; 
+  padding-bottom: 5px; 
+} 
+
+ol { 
+    font: italic; 
+    color: #777; 
+} 
+  
+ol p { 
+  font-family: 'Signika', sans-serif; 
+  color: #000; 
+} 
+
+code { 
+  color: #000; 
+} 
+
+h1, h2, h3, h4, h5, p, .ingress, button, nav, div { 
+  font-family: 'Signika', sans-serif; 
+}   
+
+.download { 
+  font-size: 14px; 
+  margin-bottom:25px; 
+  margin-top:25px; 
+  padding-bottom:30px; 
+  padding:5px; 
+  background:#D3D3D3; 
+  text-decoration:none; 
+  border: solid; 
+  border-radius:10px; 
+  box-shadow: 5px 5px 5px #888888; 
+} 
+
+.download a:hover{ 
+  color:#fff; 
+  background-color:#6b0c36; 
+  text-decoration:none; 
+} 
+
+.selected { 
+  color:#fff; 
+  background-color:#6b0c36; 
+  text-decoration:none; 
+} 
+
+
+
+/** 
+ * Links 
+ ******************************************************************************/ 
+
+a { 
+  text-decoration:none; 
+} 
+
+a:link { 
+  color:#9B001C; 
+}  
+
+a:visited { 
+  color:#9B001C; 
+}  
+
+a:hover { 
+  color:#EF002A; 
+}  
+
+a:active { 
+  color:#006600; 
+}  
+
+
+/** 
+ * Footer 
+ ******************************************************************************/ 
+
+#footer { 
+  clear:both; 
+  background-color: rgba(0,0,0,0.8); 
+  padding-top:10px; 
+  padding-right:10px; 
+  padding-left:10px; 
+  border-radius:10px; 
+   
+} 
+
+
+#footer a:hover { 
+  margin-top: 100px;
+  color:#fff; 
+  text-decoration:none; 
+}  
+
+#copy { 
+  text-align:center; 
+  padding-top:25px; 
+  padding-bottom:15px; 
+} 
