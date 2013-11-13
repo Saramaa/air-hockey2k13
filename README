@@ -3,6 +3,22 @@ Air-hockey 2k13
 
 Air-hockey 2k13 är ett spel skapat av Anderz Johansson.
 
+Styrning.
+============
+Player 1: Tryck "→" för förflyttning till höger eller "←" för förflyttning till vänster.
+Player 2: Tryck "a" för förflyttning till vänster eller "d" för förflyttning till höger.
+
+Regler:
+============
+För att göra mål och få en poäng skall pucken passera den andra spelaren. Den spelaren som först når 5 mål vinner.
+Dock krävs det att den spelaren som vinner gör så med minst 2 mål annars fortsätter matchen. 
+
+Funktioner:
+============
+Om pucken nuddar på den vänstra delen utav spelaren kommer pucken att färdas åt vänster. Nuddar den istället på höger
+sida kommer den att åka åt höger. För varje gång pucken nuddar en splare kommer hastigheten samt vinkeln på pucken att öka.
+
+
 Installation
 ============
 1. Klona detta repo till din dator.
