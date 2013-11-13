@@ -28,10 +28,11 @@ inte går att få igång spelet!
 Analys
 ==========
 Det första spelet som jag har valt att analysera är ”HTML5 Canvas Air Hockey Game”( http://demo.webstutorial.com/html5-air-hockey/  ). 
-Själva idén är precis samma som min. Det vill säga ett air-hockey spel på ett canvas med hjälp av javaScript. Jag anser att mitt spel, 
-Air-hockey2k3, är bättre än detta spel i de flesta aspekterna. Det går enbart att spela en ”player” i detta spel utan motstånd. 
-Man spelar alltså mot sig själv. I mitt spel krävs det två spelare precis som i riktig air-hockey. Vidare anser jag att mitt spels design är 
-betydligt snyggare. Medan det andra spelet enbart har två färger har mitt spel ett hockeytema med rink och puck. 
+Själva idén är precis samma som min. Det vill säga ett air-hockey spel på ett canvas med hjälp av javaScript. Jag anser 
+att mitt spel, Air-hockey2k3, är bättre än detta spel i de flesta aspekterna. Det går enbart att spela en ”player” i 
+detta spel utan motstånd. Man spelar alltså mot sig själv. I mitt spel krävs det två spelare precis som i riktig 
+air-hockey. Vidare anser jag att mitt spels design är betydligt snyggare. Medan det andra spelet enbart har två färger 
+har mitt spel ett hockeytema med rink och puck. 
 
 ”Pucken” i detta spel rör sig i samma mönster hela tiden medan den i mitt spel ändrar riktning beroende vart på ”plattan” 
 pucken träffar. Detta tycker jag talar till mitt spels fördel eftersom det spelkänslan betydligt enligt mig. Slutligen 
@@ -45,18 +46,20 @@ spel som ett alternativ till två ”player” systemet som mitt spel har som f�
 är detta spel mer likt riktig air-hockey än mitt spel. Det två stora sakerna är att målen är mer verklighetstrogna när 
 det kommer till storleken samt att objekten som spelarna styr ser mer ut som de gör i verkligheten i det andra spelet.
 
-I  ”air-hockey plus” kan spelaren styra sitt objekt över hela sin planhalva precis som reglerna tillåter i riktig air-hockey. 
-Dock anser jag att styrningen är, om än simplare, mycket bättre i mitt spel. I ”air-hockey plus” styr man med musen istället, 
-för hur det är i mitt spel, med tangenterna. Jag tycker att grundidén med att styra med musen är bra eftersom den ger en större 
-frihet att styra objektet som man skulle göra på riktigt. Dock anser jag att detta spel har misslyckats eftersom muspekare lätt 
-kan hamna utanför canvasområdet vilket leder till att spelaren förlorar kontrollen över sitt objekt. 
+I  ”air-hockey plus” kan spelaren styra sitt objekt över hela sin planhalva precis som reglerna tillåter i riktig 
+air-hockey. Dock anser jag att styrningen är, om än simplare, mycket bättre i mitt spel. I ”air-hockey plus” styr man med 
+musen istället, för hur det är i mitt spel, med tangenterna. Jag tycker att grundidén med att styra med musen är bra 
+eftersom den ger en större frihet att styra objektet som man skulle göra på riktigt. Dock anser jag att detta spel har 
+misslyckats eftersom muspekare lätt kan hamna utanför canvasområdet vilket leder till att spelaren förlorar kontrollen 
+över sitt objekt. 
 
 En till bra idé som finns i detta spel är menyer för att ändra inställningar för matchregler mm. Det går även att välja 
-ett turnerings alternativ vilket inte går i mitt spel. Dock anser jag att ”air-hockey plus” har misslyckats att implementera idén 
-på ett bra sätt. Det är svårt att förstå hur man navigerar i menyerna och det är lätt att fastna och inte veta hur man tar sig tillbaka. 
-Detta spel har inte häller det något ljud över huvud taget vilket jag anser är ett stort minus jämfört med mitt spel.
+ett turnerings alternativ vilket inte går i mitt spel. Dock anser jag att ”air-hockey plus” har misslyckats att 
+implementera idén på ett bra sätt. Det är svårt att förstå hur man navigerar i menyerna och det är lätt att fastna och 
+inte veta hur man tar sig tillbaka. Detta spel har inte häller det något ljud över huvud taget vilket jag anser är ett 
+stort minus jämfört med mitt spel.
 
-Som sammanfattning ser jag alltså möjligheten att kunna spela en spelare mot en datorstyrd spelare som ett steg i rätt utveckling för 
-”Air-hockey2k13”. Även ett väl utvecklat menysystem skulle vara till fördel för mitt spel. Där man bland annat skulle kunna ändra 
-matchinställningar och skapa turneringssystem. Bortsett från dessa två spel skulle även ett online läge med möjlighet för tabeller mm öka 
-spelglädjen och livslängden för detta spel.
+Som sammanfattning ser jag alltså möjligheten att kunna spela en spelare mot en datorstyrd spelare som ett steg i rätt 
+utveckling för ”Air-hockey2k13”. Även ett väl utvecklat menysystem skulle vara till fördel för mitt spel. Där man bland 
+annat skulle kunna ändra matchinställningar och skapa turneringssystem. Bortsett från dessa två spel skulle även ett 
+online läge med möjlighet för tabeller mm öka spelglädjen och livslängden för detta spel.
